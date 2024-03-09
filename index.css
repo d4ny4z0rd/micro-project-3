@@ -1,0 +1,67 @@
+body {
+	background-color: #3b4664;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+	height: 629px;
+	width: 536px;
+	margin-left: 670px;
+	margin-right: 670px;
+	margin-top: 150px;
+	color: white;
+}
+
+#first {
+	height: 142px;
+	width: 536px;
+	margin-bottom: 15px;
+	border-radius: 10px;
+	background-color: #181f32;
+}
+
+#second {
+	height: 450px;
+	width: 536px;
+	margin-bottom: 0px;
+	border-radius: 5px;
+	background-color: #252d44;
+	padding-top: 5%;
+}
+
+#button1 {
+	height: 70%;
+	margin-left: 5%;
+	margin-right: 5%;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+#button2 {
+	margin-left: 5%;
+	margin-right: 5%;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	height: 17%;
+}
+
+button {
+	margin: 10px;
+	border-radius: 7px;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+#reset {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.resetButton {
+	color: white;
+}
+
+p[contenteditable]:empty::before {
+	content: attr(placeholder);
+	color: gray;
+}
